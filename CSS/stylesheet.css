@@ -1,0 +1,289 @@
+	
+/*========== Header ==========*/
+
+header {
+	background: url("../Images/hexagonalpattern.jpg");
+	top: 0;
+	width: 100%;
+}
+
+h1 {
+	color: #006666;
+	font-size: 7em;
+	text-align: center;
+}
+
+h1 span {
+	color: #006666;
+	font-size: 1.7em;
+	text-align: center;
+}
+#index-heading{
+	z-index: 200;
+	height: 30em;
+}
+
+#fixed-heading, #all-heading{
+	z-index: 150;
+	position: fixed;
+	/* width: 100%;
+    top:0;*/
+}
+
+#fixed-heading h1, #all-heading h1{
+    text-align:center;
+    font-size:2.2em;
+}
+
+/*========== Footer ==========*/
+footer {
+	background: #006666;
+	height: 1.5em;
+	bottom: 0em;
+	width: 100%;
+}
+
+h5 {
+	color: white;
+	text-align: center;
+
+}
+
+/*========== Navigation ==========*/
+
+nav {
+	background: #006666;
+	height: 3em;
+	top: 30em;
+	width: 100%;
+	text-align: center;
+	padding: 0.5em;
+	z-index: 150;
+}
+
+nav div {
+	display: inline-block;
+	border-radius: 2em;
+	padding: 0.2em;
+	margin: 0.5em;
+	-webkit-transition:background 0.2s ease-out;
+    -moz-transition:background 0.2s ease-out;
+    -o-transition:background 0.2s ease-out;
+    -ms-transition:background 0.2s ease-out;
+    transition:background 0.2s ease-out;
+
+}
+
+nav div a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 1em;	
+}
+
+nav div a span {
+	color: #ffffff;
+	font-size: 1.7em;
+}
+
+nav div a img{
+	max-height: 1.1em;
+justify-content: center;
+align-items: center;
+}
+
+#all-nav {
+	top: 5.5em;
+	position: fixed;
+}
+
+/*========== Every Page Body ==========*/
+
+* {
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+	color: #3F3F3F;
+}
+
+body {
+	background-attachment: fixed;
+}
+
+.outer-border{
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+	width: 70%;
+}
+
+.description-box{
+	background-color:rgba(255,255,255,0.8);
+}
+
+.description-box div {
+	margin: 2em;
+	padding: 1.5em;
+}
+
+.description-img{
+	display: block;
+	margin-left: auto;
+    margin-right: auto; 
+    padding: 1em;
+    max-width: 95%;
+    max-height: 35em;
+}
+
+.description-box div ol li {
+	color: #006666;
+	font-size: 1.4em;
+}
+
+p {
+	color: #006666;
+	font-size: 1.4em;
+}
+
+/*========== Only Home Page ==========*/
+hr {
+	border-color: #006666;
+}
+.home-page-subbox {
+	/*text-align:center;*/
+}
+
+/*.home-hover-box{
+	text-align:center;
+}*/
+
+h2 { 	/* HOME SUBBOX TEXT */
+	text-align: center;
+	font-size: 3em;
+	color: #006666;
+	padding: 1em;
+}
+
+.home-img{
+	display: block;
+
+	margin-left: auto;
+    margin-right: auto;
+	max-height: 20em;
+	padding: 1em;
+	/*min-width: 10em;*/
+	
+}
+
+.home-img-test{
+	display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+	max-height: 20em;
+	/*max-height: 8em;*/
+}
+
+.home-hover-img {
+    left: 0; 
+  	right: 0; 
+	display: block;
+
+	margin-left: auto;
+    margin-right: auto;
+	max-height: 20em;
+	padding: 1em;
+	position:absolute;
+  	z-index: 50;
+  	opacity: 0.6;
+    -webkit-transition:opacity 0.5s ease-out;
+    -moz-transition:opacity 0.5s ease-out;
+    -o-transition:opacity 0.5s ease-out;
+    -ms-transition:opacity 0.5s ease-out;
+    transition:opacity 0.5s ease-out
+}
+
+.home-hover-img-test{
+	display: inline-block;
+
+	margin-left: auto;
+    margin-right: auto;
+    max-height: 20em;
+    padding: 1em;
+	position:absolute;
+	z-index: 50;
+  	opacity: 0.6;
+    -webkit-transition:opacity 0.5s ease-out;
+    -moz-transition:opacity 0.5s ease-out;
+    -o-transition:opacity 0.5s ease-out;
+    -ms-transition:opacity 0.5s ease-out;
+    transition:opacity 0.5s ease-out
+}
+
+.home-a{
+	position: relative;
+}
+
+
+.hover-text{
+    z-index: 100;
+    position: absolute;
+    font-size:1em;
+    color: white;
+
+    text-align: center;
+    width: 100%;
+    left:0;
+
+    margin-top: 9em;
+    margin-left: -0.75em;
+    /*text-decoration: none;*/
+}
+
+.hover-text-test{ /* still needs to be fixed*/
+	position: absolute;
+	z-index: 100;
+    font-size: 1em;
+    color: #ffffff;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -275%);
+}
+
+/*========== All the Other Pages ==========*/
+
+
+
+
+
+.testtwo{
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+
+
+
+
+
+#blank-div{
+	height: 10em;
+	width: 100%;
+}
+
+
+
+
+h4 { 	/* SUB HEADER HEADING*/
+	font-size: 2em;
+	text-align: left;
+	color: #006666;
+}
+
+/*========== Google Fonts ==========*/
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	/*font-family: 'Dosis', sans-serif;*/
+<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	/*font-family: 'Sacramento', cursive;*/
