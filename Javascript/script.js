@@ -54,7 +54,7 @@ $(document).ready( function(){
     });
 
     function homesubbox (){
-    	if($(window).width() < 1465){
+    	//if($(window).width() < 1465){
     		$(".anchor-hover").addClass("home-hover-img");
     		$(".anchor-hover").removeClass("home-hover-img-test");
     		
@@ -65,19 +65,19 @@ $(document).ready( function(){
     		$(".anchor-text").removeClass("hover-text-test");
 
     		$(".placeholder").removeClass("home-a");
-	    	
-	    } else {
-	    	$(".anchor-hover").addClass("home-hover-img-test");
-    		$(".anchor-hover").removeClass("home-hover-img");
+	    	// need to be fixed
+	  //   } else {
+	  //   	$(".anchor-hover").addClass("home-hover-img-test");
+   //  		$(".anchor-hover").removeClass("home-hover-img");
 
-			$(".anchor-img").addClass("home-img-test");
-    		$(".anchor-img").removeClass("home-img");
+			// $(".anchor-img").addClass("home-img-test");
+   //  		$(".anchor-img").removeClass("home-img");
 
-    		$(".anchor-text").addClass("hover-text-test");
-    		$(".anchor-text").removeClass("hover-text");
+   //  		$(".anchor-text").addClass("hover-text-test");
+   //  		$(".anchor-text").removeClass("hover-text");
 	    	
-	    	$(".placeholder").addClass("home-a");
-	    }
+	  //   	$(".placeholder").addClass("home-a");
+	  //   }
     }
     
 
