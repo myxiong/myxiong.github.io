@@ -101,7 +101,7 @@ align-items: center;
 
 * {
 	margin: 0;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Dosis','Josefin Sans', Century Gothic, sans-serif;
 	color: #3F3F3F;
 }
 
@@ -283,7 +283,19 @@ h4 { 	/* SUB HEADER HEADING*/
 }
 
 /*========== Google Fonts ==========*/
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-	/*font-family: 'Dosis', sans-serif;*/
-<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-	/*font-family: 'Sacramento', cursive;*/
+/*<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	font-family: sans-serif, 'Dosis', sans-serif;*/
+@font-face{
+    font-family: 'Dosis', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Dosis);
+}
+
+/*@font-face{
+    font-family: 'Advent Pro', sans-serif;
+    src: url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200);
+}*/
+
+@font-face{
+    font-family: 'Josefin Sans', sans-serif;
+    src: url(http://fonts.googleapis.com/css?family=Josefin+Sans:100);
+}
