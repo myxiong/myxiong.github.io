@@ -4,14 +4,10 @@ $(document).ready( function(){
 
 	/*===== nav bar =====*/
 	 $("nav div").hover(function() {
- 		$(this).css({"background":"#ffffff"});
- 	 	$(this).find("a").css({"color":"#006666"});
- 	 	$(this).find("a span").css({"color":"#006666"});
+ 		$(this).css({"border-bottom":"3px solid #2e74b5"});
         
     },function(){
- 		$(this).css({"background":"#006666"});
- 	 	$(this).find("a").css({"color":"#ffffff"});
- 	 	$(this).find("a span").css({"color":"#ffffff"});
+        $(this).css({"border-bottom":"3px solid #ffffff"});
     });
 
     /*===== home page subbox =====*/
@@ -34,12 +30,12 @@ $(document).ready( function(){
     });
 
     function headerEffect (){
-        if($(window).scrollTop()>375){
+        if($(window).scrollTop()>370){
             $("#fixed-heading").fadeIn("fast");
-            $("#not-fixed-nav").css({"top":"5.5em", "position":"fixed"});
+            $("#not-fixed-nav").css({"top":"30px", "position":"fixed"});
         }else{
             $("#fixed-heading").fadeOut("fast");
-           	$("#not-fixed-nav").css({"top":"30em", "position":"static"});
+           	$("#not-fixed-nav").css({"top":"25em", "position":"static"});
         }
     }
 
