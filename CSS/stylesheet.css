@@ -40,8 +40,9 @@ h1 span {
 /*========== Footer ==========*/
 footer {
 	background: #2e74b5;
-	height: 1.5em;
-	bottom: 0em;
+	
+	padding: 5px;
+  bottom: 0;
 	width: 100%;
 }
 
